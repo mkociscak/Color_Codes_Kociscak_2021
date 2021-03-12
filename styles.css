@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: aquamarine;
   }
   
   h1 {
@@ -10,4 +10,30 @@ body {
   p {
     font-family: verdana;
     font-size: 20px;
+  }
+  .header {
+    max-width: 1080px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    background-color:aquamarine;
+  }
+  .grid {
+    max-width: 1080px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 300px 300px 300px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color:aquamarine
+     
+  }
+  .row1 {
+    background-color: lightgreen;
+  }
+  .row2 {
+    background-color: rgb(21, 190, 154) ;
+  }
+  .row3 {
+    background-color: rgb(16, 151, 50);
   }
