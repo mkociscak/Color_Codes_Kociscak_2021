@@ -6,29 +6,45 @@
     padding: 10px;
     background: white;
     margin: 45px auto;
+    
 }
 
 .item {
+    flex-grow:1;
     height:20px;
     padding:5px;
     margin: 3px;
-    color: white;
     background: rgb(170, 170, 170);
     border-radius: 3px;
 }
 
+/* -----pages------- */
+.painting {
+    max-width: 880px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .child {
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  }
 
 
 
 @media only screen and (min-width: 768px){
     .container {
+        max-width: 1900px;
+        align-content: left;
         display: flex;
         flex-direction: row;
         height:100px;
         padding: 10px;
         background: white;
-        margin: 45px auto;
-    }
+        margin: 45px auto;}
+    
     
     .item {
         height:60px;
@@ -37,5 +53,5 @@
         margin: 3px;
         color: white;
         background: rgb(170, 170, 170);
-        border-radius: 3px;
+        border-radius: 3px;}
     }
