@@ -9,10 +9,32 @@ function validateForms() {
 
     if (canyouans == "") {
         alert("Please type yes or no");
-    } else if (canyouans == "yes") {
-        alert("Yeah! This is NEAT!");
-    } else if (canyouans == "no") {
-        alert("That's okay, try again");
+    } 
+    if (canyouans == "yes") {
+        alert("Yeeeah! This is NEAT!");
+    } 
+    if (canyouans == "no") {
+        alert("That's okay, click the home button to see the color again and try again if you want");
+    }
+
+
+}
+
+function validateForms() {
+
+
+
+    let doyouans = document.getElementById("doyou").value;
+
+    if (doyouans == "") {
+        alert("Please type yes or no");
+    } 
+    if (doyouans == "yes") {
+        alert("Yesssss! Thank you.");
+    } 
+    if (doyouans == "no") {
+        alert("Dang it! Well, that's fair.");
+    }
 
 
 }
