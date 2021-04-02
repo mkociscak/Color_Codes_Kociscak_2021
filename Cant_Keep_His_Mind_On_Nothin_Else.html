@@ -1,27 +1,58 @@
 <!DOCTYPE html PUBLIC>
 <html>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" href="styles.css">
     <link rel= "stylesheet" href="flexbox.css">
-    <script src= "script.js"></script>  
     
+
 <head>  
 <title>Cant_Keep_His_Mind_On_Nothin_Else</title>
 </head>
+
 <body>
     <div class="logo">
         <img src="images/logo2013.jpg">  
     </div> 
     
   
-    
   <!--
 -->
 
     <div class="painting">
         <img src="images/Cant.jpg">
-        <p>Can't Keep His Mind On Nothin Else.&nbsp;&nbsp;2013.&nbsp;&nbsp;oil on canvas.</p>
+        Can't Keep His Mind On Nothin Else.&nbsp;&nbsp;2013.&nbsp;&nbsp;oil on canvas.
     </div>
   
+
+    
+    
+    <div class="form">   
+            
+       <form name="questions" onsubmit="return validateForms()">
+        
+            <label for="canyou">Can you see the color in the painting?</label>
+            <input type="text" name="canyou" id="canyou">
+        
+        <!--
+            <label for="emailaddress">Email:</label>
+            <input type="email" name="emailaddress" id="emailaddress" size="30">
+        
+        
+            <label for="inquirybox">How can I help you?</label>
+            <textarea name="inquirybox" id="inquirybox" size="50"></textarea>
+        -->
+        <br>
+        
+            <input type="submit" value="Submit" class="btn" id="btn">
+        
+    
+       </form>
+    
+    </div>
+
+
 
     <div class="container">
         
@@ -34,5 +65,7 @@
         <div class="item_4 item"><a href="index.html">home</a></div>
     </div>   
 
+     
+    <script src="script.js"></script> 
 </body>
 </html>
