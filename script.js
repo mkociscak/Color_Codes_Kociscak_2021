@@ -14,10 +14,8 @@ function validateForms() {
         alert("Yeeeah! This is NEAT!");
     } 
     if (canyouans == "no") {
-        alert("That's okay, click the home button to see the color again and try again if you want");
+        alert("That's okay, try again if you want");
     }
-
-
 }
 
 function validateForms() {
